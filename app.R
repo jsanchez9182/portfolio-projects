@@ -41,7 +41,10 @@ ui <- fluidPage(
     )
   ),
   fluidRow(
-    withSpinner(leafletOutput(outputId = "map",height=600),color="#0dc5c1")
+    div(
+    withSpinner(leafletOutput(outputId = "map",height=600),color="#0dc5c1"),
+    style="position:relative; top:20px;"
+    )
   )
 )
 
