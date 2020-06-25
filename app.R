@@ -17,7 +17,7 @@ ui <- fluidPage(
   titlePanel("AirBnB Explorer"),
   fluidRow(
     column(4,
-           pickerInput("NeighbourhoodGroup",label="Neighbourhood Group",
+           pickerInput("NeighbourhoodGroup",label="Location",
                        choices = neighbourhood.groups,
                        options = list("actions-box" = TRUE),
                        multiple=T)
@@ -31,14 +31,17 @@ ui <- fluidPage(
            
     ),
     column(4,
+        div(
            checkboxInput(inputId="onlyreviewed",
                          "Show only reviewed listings",
                          value = F
-           )
+           ),
+         style="position:relative; top:20px;"
+         )
     )
   ),
   fluidRow(
-    withSpinner(leafletOutput(outputId = "map"),color="#0dc5c1")
+    withSpinner(leafletOutput(outputId = "map",height=600),color="#0dc5c1")
   )
 )
 
@@ -47,7 +50,7 @@ server <- function(input,output){
     current_subset <- ab.data
     if (!is.null(input$NeighbourhoodGroup)){
       current_subset <- filter(current_subset,
-                               neighbourhood_group %in% input$NG)
+                               neighbourhood_group %in% input$NeighbourhoodGroup)
     }
     if (!is.null(input$RoomType)){
       current_subset <- filter(current_subset,
@@ -62,7 +65,7 @@ server <- function(input,output){
     leaflet(current_subset) %>%
       addTiles() %>%
       addMarkers(lat=~latitude,lng=~longitude,
-                 label = current_subset$labs,
+                 label = ~labs,
                  clusterOptions = markerClusterOptions())
   })
 }

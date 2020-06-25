@@ -1,6 +1,5 @@
 library(dplyr)
 
-setwd("C:\\Users\\joewu\\Documents\\code\\portfolio\\finished_portfolio\\air_bnb2")
 ab.data <- read.csv("AB_NYC_2019.csv",header=T,stringsAsFactors = F)
 
 #changing name encoding to UTF-8
