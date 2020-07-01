@@ -1,4 +1,4 @@
-# Project portfolio by Joe Sanchez
+# Project Portfolio by Joe Sanchez
 ___ 
 Each folder contains a separate project and includes any associated files. The project topics range from data/statistical analyses to machine learning and web applications. 
 
