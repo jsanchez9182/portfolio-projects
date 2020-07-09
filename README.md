@@ -7,7 +7,7 @@ Each folder contains a separate project and includes any associated files. The p
 ___ 
 ### Encore Data Analysis
 * Identified trends, issues and made recommondations to improve business interactions with consumers based on Encore Capital Group data.
-* The data was obtained from the Consumer Financial Protection Bureau database of consumer complaints.
+* The data was obtained from the Consumer Financial Protection Bureau's consumer complaint database.
 
 ### Airbnb data web application 
 
