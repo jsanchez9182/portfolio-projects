@@ -9,7 +9,7 @@ ___
 * Identified trends, issues and made recommondations to improve business interactions with consumers based on Encore Capital Group data.
 * The data was obtained from the Consumer Financial Protection Bureau's consumer complaint database.
 
-### Airbnb data web application 
+### Airbnb Data Web application 
 
 *  Created an easily interpretable and interactive map capable of identifying bargains for Airbnb customers in the New York city area using shiny.
 * Deployed the application on an AWS ec2 instance.
@@ -29,6 +29,6 @@ ___
 * The second decision tree model had weights applied in order to penalize false positives (misclassifying legitimate emails as spam) more harshly.
 * The second decision tree model achieved an error rate of about 13% with a false positive error rate of approximately 1% and a false negative error rate of approximately 12%. 
 
-### Framingham heart study 
+### Framingham Heart Study 
 * Worked with a team in order to develop a logistic regression model capable of assessing a person's risk of developing coronary heart disease based on physiological parameters and habits. 
 * A prediction accuracy of approximately 85% was achieved.
