@@ -13,7 +13,6 @@ ___
 
 *  Created an easily interpretable and interactive map capable of identifying bargains for Airbnb customers in the New York city area using shiny.
 * Deployed the application on an AWS ec2 instance.
-* The application is hosted at [www.adaptableanalyticsolutions.com](http://www.adaptableanalyticsolutions.com).
 
 ### Predicting Kaggle Housing Dataset Prices 
 * Utilized, Pandas, NumPy, Scikit-learn, Statsmodels and other python libraries to create an easily interpretable robust linear regression model capable of estimating the price of homes and identifying potential outliers.
