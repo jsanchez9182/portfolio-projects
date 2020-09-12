@@ -12,7 +12,7 @@ ___
 ### Airbnb Data Web application
 * Created an easily interpretable and interactive map capable of identifying bargains for Airbnb customers in the New York city area using shiny.
 * Deployed the application on an AWS ec2 instance.
-* Will move to shinyapps.io soon.
+* Will move to Microsoft Azure soon.
 
 ### [Predicting Kaggle Housing Dataset Prices](https://github.com/jsanchez9182/portfolio-projects/blob/master/predicting-house-prices/kaggle_house_prices.ipynb)
 * Utilized, Pandas, NumPy, Scikit-learn, Statsmodels and other python libraries to create an easily interpretable robust linear regression model capable of estimating the price of homes and identifying potential outliers.
