@@ -9,10 +9,10 @@ ___
 * Identified trends, issues and made recommondations to improve business interactions with consumers based on Encore Capital Group data.
 * The data was obtained from the Consumer Financial Protection Bureau's consumer complaint database.
 
-### Airbnb Data Web application
+### Airbnb Data Web application(https://jsanchez2393.shinyapps.io/airbnb-data-webapp/)
 * Created an easily interpretable and interactive map capable of identifying bargains for Airbnb customers in the New York city area using shiny.
-* Deployed the application on an AWS ec2 instance.
-* Will move to Microsoft Azure soon.
+* Initially deployed the application on an AWS ec2 instance.
+* Moved to shinyapps.io
 
 ### [Predicting Kaggle Housing Dataset Prices](https://github.com/jsanchez9182/portfolio-projects/blob/master/predicting-house-prices/kaggle_house_prices.ipynb)
 * Utilized, Pandas, NumPy, Scikit-learn, Statsmodels and other python libraries to create an easily interpretable robust linear regression model capable of estimating the price of homes and identifying potential outliers.
