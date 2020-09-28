@@ -9,7 +9,7 @@ ___
 * Identified trends, issues and made recommondations to improve business interactions with consumers based on Encore Capital Group data.
 * The data was obtained from the Consumer Financial Protection Bureau's consumer complaint database.
 
-### Airbnb Data Web application(https://jsanchez2393.shinyapps.io/airbnb-data-webapp/)
+### [Airbnb Data Web application](https://jsanchez2393.shinyapps.io/airbnb-data-webapp/)
 * Created an easily interpretable and interactive map capable of identifying bargains for Airbnb customers in the New York city area using shiny.
 * Initially deployed the application on an AWS ec2 instance.
 * Moved to shinyapps.io
